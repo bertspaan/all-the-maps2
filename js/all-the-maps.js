@@ -209,9 +209,6 @@ function drawMap(d) {
     var svg = d3.select(this)
       .attr('class', 'error')
 
-
-      // var width = 100
-      // var height = 60
     const d = 20
     svg.append('line')
       .attr('x1', width / 2 - d)
